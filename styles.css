@@ -54,10 +54,10 @@ p {
     background-color: var(--very-dark-blue-card-BG);
     padding: 25px;
     border-radius: 20px;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     box-shadow: 0 0 20px 25px var(--very-dark-blue-main--BG), 0 0 20px 45px var(--very-dark-blue-card-BG);
     
 }
@@ -107,7 +107,7 @@ p {
 
 /* Heading */
 header {
-    align-self: baseline;   
+    /* align-self: baseline;    */
     margin: 15px 0;
 }
 
@@ -173,8 +173,9 @@ span {
 .attribution {
     font-size: 11px;
     text-align: center;
+    color: var(--cyan);
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: var(--white);
 }
